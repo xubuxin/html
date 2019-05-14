@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0
+}
+
+body {
+    background-color: orange
+}
+
+#logo {
+
+    color: brown;
+    text-align: center;
+    line-height: 1.5em;
+    padding: 2em;
+    letter-spacing: 1px
+}
+
+button {
+    padding: .3em .8em;
+    border: 1px solid rgba(0, 0, 0, .1);
+    background: #58a linear-gradient(hsla(0, 0%, 100%, .2), transparent);
+    border-radius: .25em;
+    color: white;
+    text-shadow: .05em -.05em .05em rgba(0, 0, 0, .5);
+    font-size: 125%;
+    line-height: 1.5;
+}
+
+button:hover {
+    box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
+}
+
+button:active {
+    background: #58a linear-gradient(transparent, hsla(0, 0%, 100%, .2));
+}
+
+button:focus {
+    outline: none;
+}
+
+button.ok {
+    background-color: #6b0;
+}
+
+button.cancle {
+    background-color: #c00;
+}
+
+#border-clip{
+    width: 40%;
+    border: 10px solid hsla(0, 0%, 100%, .5);
+    background: white;
+    background-clip: padding-box;
+    text-align: center;
+    line-height: 1.5;
+    box-shadow: 0 0 0 10px #6b0 , 0 0 0 15px #c00, 0 0 0 20px #58a;
+}
+
+#box{
+    width: 50%;
+    padding: 1em;
+    background: yellowgreen;
+    border: .8em solid #655;
+    border-radius: .4em;
+    outline: .8em solid white;
+    box-shadow: 0 0 0 .5em white;
+    
+}
+
+.something-manuful{
+    background: #655;
+    padding:.8em;
+}
+
+.something-manuful > div {
+    background: lightcoral;
+    border-radius: .8em;
+    padding:1em;
+}
