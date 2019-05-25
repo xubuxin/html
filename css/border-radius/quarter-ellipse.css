@@ -1,0 +1,20 @@
+div{
+    margin: 1em;
+    width: 5em;
+    height: 4em;
+    background: #fb5;
+    display: inline-block;
+    border-radius: 100% 30% 30% 30%;
+}
+
+div:nth-of-type(2){
+    border-radius: 0 100% 0 0;
+}
+
+div:nth-of-type(3){
+    border-radius: 0 0 100% 0;
+}
+
+div:nth-of-type(4){
+    border-radius: 0 0 0 100%;
+}

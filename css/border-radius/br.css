@@ -1,0 +1,20 @@
+div{
+    display: inline-block;
+    background: rgba(233, 211, 10, 0.9);
+    width: 6em;
+    height: 4em;
+    margin: 1em;
+    border-radius: 100% 10% 100% 10% / 100%;
+}
+
+div:nth-of-type(2) {
+    border-radius: 50% / 100% 100% 0 0;
+}
+
+div:nth-of-type(3) {
+    border-radius: 0 100% 100% 0 / 50%;
+}
+
+div:nth-of-type(4) {
+    border-radius: 50% / 0 0 100% 100%;
+}
